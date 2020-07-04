@@ -23,7 +23,7 @@ a:hover {
 h1, h2, h3, h4, h5 {
   color: #000;
   font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 header {
@@ -74,7 +74,7 @@ header .navbar .navbar-nav.absolute-right {
 
 header .navbar .nav-link {
   padding: 1rem 1rem;
-  font-size: 15px;
+  font-size: 17px;
   outline: none !important;
   opacity: 1 !important;
   color: #000 !important;
@@ -128,16 +128,18 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover {
-  background: #38AD02;
+  background: #146935;
   color: #fff;
 }
 
 header .navbar .nav-link:hover{
-  background-color: #38AD02;
+  color: #146935 !important;
+  border-top: #146935 5px solid;
+  border-bottom: #146935 5px solid;
 }
 
 header .navbar .dropdown-menu .dropdown-item.active {
-  background: #38AD02;
+  background: #146935;
   color: #fff;
 }
 
@@ -199,17 +201,20 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero .btn {
   -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
   box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.2) !important;
-  background: #38AD02!important;
+  background: #146935!important;
   border: 2px solid transparent !important;
   color: #fff;
+  font-size: 18px;
 }
 
 .site-hero .btn:hover {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   background: none !important;
-  color: #fff;
-  border: 2px solid #fff !important;
+  color: #000;
+  border: 2px solid #000 !important;
+  font-weight: 500;
+ 
 }
 
 .site-hero.overlay {
@@ -1146,12 +1151,13 @@ blockquote p {
   font-size:35px;
   margin: 0;
   padding: 0;
-  color: #38ad02;
+  color: #146935;
 }
 
 .block-15 .text {
   max-width: 450px;
 }
+
 
 
 
@@ -1198,7 +1204,7 @@ blockquote p {
 
 .block-17 .heading {
   font-size: 40px;
-  color: #fff;
+  color: #000;
 }
 
 .block-17 form {
@@ -1508,13 +1514,15 @@ blockquote p {
 }
 
 .block-22 {
-  background:#e6e6e6;
+  padding: 120px 0px !important;
+  margin-bottom: 100px;
 }
 
 .block-22 .heading {
   font-size: 30px;
   font-weight: 300;
-  color: #fff;
+  color: #fff !important;
+  padding-bottom:10px ;
 }
 
 .block-22 p {
@@ -1522,7 +1530,7 @@ blockquote p {
 }
 
 .block-22 p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 100px;
 }
 
 .block-22 .subscribe .form-group {
@@ -1541,6 +1549,19 @@ blockquote p {
   top: 5px;
   right: 6px;
 }
+
+.block-22 .btn{
+  color: white;
+  background-color: #146935;
+  font-size: 18px;
+}
+.block-22 .btn:hover{
+  color: #000;
+ border: #000 1px solid;
+ background-color: transparent;
+ font-weight: 500;
+}
+
 
 .block-2 {
   margin-bottom: 50px;
